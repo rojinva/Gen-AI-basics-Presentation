@@ -1,0 +1,943 @@
+[{
+  "_id": {
+    "$oid": "66e8c3e37ed435cdde6f4ddc"
+  },
+  "lamBotConfigId": "9f9c0514-6503-4713-8b2b-fa6532466b6d",
+  "name": "enterprise-lambot",
+  "displayName": "Enterprise LamBot",
+  "description": "Ask general-purpose questions with the Enterprise LamBot. This chatbot provides information and assistance without accessing any Lam data sources.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6737df868fbbc2be233d5336"
+  },
+  "lamBotConfigId": "9f6ba95b-7f89-4187-8fe8-25ced48c5fce",
+  "name": "text-to-SQL-DI",
+  "displayName": "Text To SQL",
+  "description": "Ask questions against Synapse DB",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "673cf71f69de4ac7cc332c8b"
+  },
+  "lamBotConfigId": "e3b0c442-98fc-4f8e-9a1d-3b6a27a1f49c",
+  "name": "quality-chatbot",
+  "displayName": "Quality Chatbot",
+  "description": "The chatbot to assist the global quality (GQ) team access and query the structured/nonstructured GQ data such as nce, 8d, iplm, escalation solver.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "677ecd2b2015ef363842531a"
+  },
+  "lamBotConfigId": "7cbf70fd-e501-4139-bd1a-72c0d3772769",
+  "name": "ehs-policies",
+  "displayName": "EHS Policies",
+  "description": "This chatbot queries EHS specific EDMS documents to answer questions about EHS policies, procedures, and regulations.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "679bf4675a95c507fb4ca2f4"
+  },
+  "lamBotConfigId": "34133b1e-d946-4bec-a11c-7f449ad7b909",
+  "name": "dielectric-etch-chatbot",
+  "displayName": "Dielectric Etch Chatbot",
+  "description": "Ask questions regarding Dielectric Etch.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "679d749cd78e4a7454461813"
+  },
+  "lamBotConfigId": "bb8014ae-57df-4feb-96e3-af322326a12f",
+  "name": "quest-plus",
+  "displayName": "Quest+",
+  "description": "Quest+ helps find information and provide insights from engineering data sources.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "documentationLink": "https://confluence.lamresearch.com/pages/viewpage.action?pageId=1114443063",
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "679d74a4d78e4a7454461814"
+  },
+  "lamBotConfigId": "74a464c1-518a-4534-8057-adff0ac2d008",
+  "name": "insight-management",
+  "displayName": "Insight Management",
+  "description": "Ask questions about documents designed for Field Services and RPS users.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "documentationLink": "https://confluence.lamresearch.com/display/ED/Insight+Management+LamBot+-+Application+Guide+and+BKM",
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    },
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67a112c36b86ea9cbff166a6"
+  },
+  "lamBotConfigId": "425ac903-281b-4e5e-8af9-ca6cf69a740a",
+  "name": "earnings-transcript-lambot",
+  "displayName": "Earnings Transcript LamBot",
+  "description": "Ask questions about public earnings transcripts for AMAT, ASML, KLA, LRCX and TEL.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67a1b11aa384783b7be814c2"
+  },
+  "lamBotConfigId": "cd52fc85-f67d-4acc-89cb-153d4cbb37af",
+  "name": "payroll-helpdesk",
+  "displayName": "Payroll Helpdesk",
+  "description": "Ask questions regarding Payroll Q&A documents.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67b64fc411053eabdad87d28"
+  },
+  "lamBotConfigId": "675dfdc0-1439-4336-9b63-2250e8151b0b",
+  "name": "customer-survey-edms-poc",
+  "displayName": "Customer Survey + EDMS POC",
+  "description": "Ask questions regarding historic customer survey data and EDMS data.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67b6d7d5178afbb380b03521"
+  },
+  "lamBotConfigId": "3d0b4504-6e53-4fc9-a140-7548a48afd7b",
+  "name": "mfg-ops",
+  "displayName": "MFG Ops LamBot",
+  "description": "Ask questions regarding MFG Ops LamBot",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67c73b7a98b7468ab6be4ad5"
+  },
+  "lamBotConfigId": "6db0054e-c0f9-44c6-be63-82c0aa1b495a",
+  "name": "ets-chatbot",
+  "displayName": "ETS Chatbot",
+  "description": "Ask questions regarding .",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67d8c8b7ca6281c4ffc0214f"
+  },
+  "lamBotConfigId": "c61594ed-d340-41e8-b049-5b863966f98b",
+  "name": "swc",
+  "displayName": "SWC LamBot",
+  "description": "Ask questions regarding swc data.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67d8ccc4114c10bea2cde0c4"
+  },
+  "lamBotConfigId": "230b4c1d-2c1a-4ea8-aaf8-fa05a3422402",
+  "name": "technical-accounting",
+  "displayName": "Technical Accounting LamBot",
+  "description": "Ask questions regarding accounting data.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67f5abd7864b47e297eb9c9b"
+  },
+  "lamBotConfigId": "a173d358-9041-4685-bdbe-79ee4217b328",
+  "name": "service-desk-chatbot",
+  "displayName": "ServiceDesk Chatbot",
+  "description": "Ask questions about Service Desk.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67ffcf0da58ef372eef69c08"
+  },
+  "lamBotConfigId": "d640706d-a1a2-4688-a3e3-3b9601b3760c",
+  "name": "text-to-SQL-HRT",
+  "displayName": "HR BOT POC",
+  "description": "To provide HR Executives with accurate and detailed answers to HR-related questions, including headcount, organizational structure, and employee demographics.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "680033c3435c4191b04acb61"
+  },
+  "lamBotConfigId": "663dd171-ad04-4b1b-95b0-7eb208bcf3ec",
+  "name": "lam-india-finance-lambot",
+  "displayName": "Lam India Finance LamBot",
+  "description": "Ask questions regarding Lam India Payroll, ESPP, FBP, POI and reimbursements.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "682fd226694a1858336457cb"
+  },
+  "lamBotConfigId": "6a565d41-07b2-4d98-84c9-ce927f487922",
+  "name": "etch-process-insights",
+  "displayName": "Etch Process Insights",
+  "description": "Ask questions regarding etch process insights",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false,
+      "showPromptDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "683a02afaa726b822600582a"
+  },
+  "lamBotConfigId": "08608afc-c689-4ec8-a310-8c45f8ed4b3a",
+  "name": "cfpa-ir-bot",
+  "displayName": "CFPA & IR bot",
+  "description": "A deep research bot for financial data, providing insights on analyst reports, competitive analysis, and industry events.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": false,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6851aeafdf167ce7fc0ca33a"
+  },
+  "lamBotConfigId": "47fd5b0e-9e6d-4e64-9e1d-96d8c9f81e05",
+  "name": "deep-research-demo",
+  "displayName": "Deep Research Demo",
+  "description": "A deep research bot for LamBots demo.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6853ac89be753a6a8eebebf5"
+  },
+  "lamBotConfigId": "d61d54f7-0d44-4d99-8594-c1476387b0f5",
+  "name": "dpg-engineering",
+  "displayName": "DPG Engineering",
+  "description": "Ask questions regarding DPG Engineering",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": true,
+      "showPromptDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "685c9e2ba6ff0c27fd193884"
+  },
+  "lamBotConfigId": "49097d68-3eb1-4b7b-b5a2-d7b79874e56e",
+  "name": "fmea",
+  "displayName": "FMEA",
+  "description": "Ask questions about and get help with FMEA at LAM.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "documentationLink": "https://confluence.lamresearch.com/pages/viewpage.action?pageId=1114443063",
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false,
+      "showPromptDropdown": false,
+      "showPromptDropdowns": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68655b72e02846948f141ff7"
+  },
+  "lamBotConfigId": "08fb581d-6142-49fb-bd24-5ca6f4b2f883",
+  "name": "vizglow-user-manual",
+  "displayName": "VizGlow User Manual",
+  "description": "Ask questions about VizGlow User Manual.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6866fe39322194970f11632a"
+  },
+  "lamBotConfigId": "bea95080-5e70-4b03-9230-2362a6e1de22",
+  "name": "fast-bot",
+  "displayName": "FAST bot",
+  "description": "Failure Analysis and Summary Tool (FAST) bot for Lam Research.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "686bd067ce2d97804f41ce4b"
+  },
+  "lamBotConfigId": "f236d7d5-c0d0-4e27-8c57-c1b432a96100",
+  "name": "process-plus",
+  "displayName": "Process+",
+  "description": "Unlock insights effortlessly—Process+ streamlines your search through demo databases.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "documentationLink": "https://confluence.lamresearch.com/pages/viewpage.action?pageId=1114443063",
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false,
+      "showPromptDropdown": false,
+      "showPromptDropdowns": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68759e12cd650bc2a4ccf8dd"
+  },
+  "lamBotConfigId": "fec72c51-e85b-4fcf-8148-e7e238b109ae",
+  "name": "riddler",
+  "displayName": "Riddler",
+  "description": "A LamBot Puzzle",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": false,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68759e12cd650bc2a4ccf8de"
+  },
+  "lamBotConfigId": "fec72c51-e85b-4fcf-8148-e7e238b109af",
+  "name": "coworker",
+  "displayName": "AI Summit Sam",
+  "description": "Your coworker",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": false,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6878862d6a61d2489d525059"
+  },
+  "lamBotConfigId": "c737b34f-9970-4a53-b64b-2a952d6de8b3",
+  "name": "virtualsme",
+  "displayName": "VirtualSMEBot",
+  "description": "Ask questions related to the Configuration Engineering process.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    },
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "687a4b3e9b5fa7ff1e3cb9ec"
+  },
+  "lamBotConfigId": "ec3cee55-4a09-4124-a2f8-883192146abd",
+  "name": "p-two-f",
+  "displayName": "P2F",
+  "description": "Instructor to help create tools and systems",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "documentationLink": "https://confluence.lamresearch.com/pages/viewpage.action?pageId=1114443063",
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": true,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": true,
+      "showForceToolCall": false,
+      "showLLMDropdown": true
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": true
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6881d66593e65b5221fe4e71"
+  },
+  "lamBotConfigId": "1193a514-b4c1-4342-8cc8-cc5a2b0635c3",
+  "name": "metrology",
+  "displayName": "Metrology Bot",
+  "description": "Ask general-purpose questions with the Metrology bot.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": false,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6883a4d62e908a9b14aae8c0"
+  },
+  "lamBotConfigId": "87d6c446-429e-464d-b773-dfcd78ce9449",
+  "name": "csbg-process-plus",
+  "displayName": "CSBG Process+",
+  "description": "A centralized AI resource designed to support CSBG demo engineers by providing quick access to references and historical demo information.",
+  "chatPromptTemplate": "<s>{{#each messages}}{{#ifUser}}[INST] {{#if @first}}{{#if @root.preprompt}}{{@root.preprompt}}\n{{/if}}{{/if}}{{content}} [/INST]{{/ifUser}}{{#ifAssistant}}{{content}}</s>{{/ifAssistant}}{{/each}}",
+  "promptExamples": [],
+  "endpoints": [
+    {
+      "type": "lambots",
+      "baseURL": "http://10.52.59.198:8000/chat/chat_completion"
+    }
+  ],
+  "uiComponents": {
+    "documentationLink": "https://confluence.lamresearch.com/pages/viewpage.action?pageId=1114443063",
+    "advancedControlsComponent": {
+      "showSystemMessageEditor": false,
+      "showDataSourceSelector": true,
+      "showTopKSelector": true,
+      "showTemperatureSelector": false,
+      "showForceToolCall": false,
+      "showLLMDropdown": false,
+      "showPromptDropdown": false,
+      "showPromptDropdowns": false
+    },
+    "chatMessageComponent": {
+      "showUnusedCitations": false
+    }
+  }
+}]

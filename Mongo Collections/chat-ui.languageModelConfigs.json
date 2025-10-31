@@ -1,0 +1,268 @@
+[{
+  "_id": {
+    "$oid": "67a67c44a47132a8162c65a4"
+  },
+  "name": "gpt-4o",
+  "deployment_name": "gpt-4o",
+  "display_name": "GPT-4o",
+  "description": "A powerful language model optimized for various tasks.",
+  "unsupported_features": [
+    "reasoning"
+  ],
+  "region": "use",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "67a67c44a47132a8162c65a5"
+  },
+  "name": "gpt-4o-mini",
+  "deployment_name": "gpt-4o-mini",
+  "display_name": "GPT-4o mini",
+  "description": "A smaller, efficient version of GPT-4o.",
+  "unsupported_features": [
+    "reasoning"
+  ],
+  "region": "use",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "67acf1c6d7f26343f799f649"
+  },
+  "name": "o1-mini",
+  "deployment_name": "o1-mini",
+  "display_name": "o1-mini",
+  "description": "A language model with Enhanced Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "67d6359ab3912e9efcc3e8d1"
+  },
+  "name": "o1",
+  "deployment_name": "o1",
+  "display_name": "o1",
+  "description": "An advanced language model with Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "6806c0dee80990234a3f6f68"
+  },
+  "name": "o3",
+  "deployment_name": "o3",
+  "display_name": "o3",
+  "description": "An advanced language model with Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "6806c0ede80990234a3f6f6a"
+  },
+  "name": "o4-mini",
+  "deployment_name": "o4-mini",
+  "display_name": "o4-mini",
+  "description": "An advanced language model with Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68436e115999c8cc11f0fb1e"
+  },
+  "name": "gpt-4.1",
+  "deployment_name": "gpt-4.1",
+  "display_name": "gpt-4.1",
+  "description": "A long context window advanced general-purpose model with extensive world knowledge and an enhanced ability to understand user intent, making it particularly adept at creative tasks and agentic planning.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68436e1a5999c8cc11f0fb20"
+  },
+  "name": "gpt-4.1-mini",
+  "deployment_name": "gpt-4.1-mini",
+  "display_name": "gpt-4.1-mini",
+  "description": "A long context window advanced general-purpose model with extensive world knowledge and an enhanced ability to understand user intent, making it particularly adept at creative tasks and agentic planning.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68436e215999c8cc11f0fb22"
+  },
+  "name": "gpt-4.1-nano",
+  "deployment_name": "gpt-4.1-nano",
+  "display_name": "gpt-4.1-nano",
+  "description": "A long context window advanced general-purpose model with extensive world knowledge and an enhanced ability to understand user intent, making it particularly adept at creative tasks and agentic planning.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "685d8b869b8a9b6b690ac3ba"
+  },
+  "name": "o3-pro",
+  "deployment_name": "o3-pro",
+  "display_name": "o3-pro",
+  "description": "An advanced language model with Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "685d8c3e9b8a9b6b690ac3bc"
+  },
+  "name": "codex-mini",
+  "deployment_name": "codex-mini",
+  "display_name": "codex-mini",
+  "description": "A coding language model, designed to deliver rapid, instruction-following performance for developers",
+  "unsupported_features": [],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "6895896bbff6d7657b91542a"
+  },
+  "name": "gpt-5",
+  "deployment_name": "gpt-5",
+  "display_name": "GPT-5",
+  "description": "A flagship model for coding, reasoning, and agentic tasks across domains.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "6895897bbff6d7657b91542c"
+  },
+  "name": "gpt-5-chat",
+  "deployment_name": "gpt-5-chat",
+  "display_name": "GPT-5 chat",
+  "description": "Advanced, natural, multimodal, and context-aware conversations for enterprise applications",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68958983bff6d7657b91542e"
+  },
+  "name": "gpt-5-nano",
+  "deployment_name": "gpt-5-nano",
+  "display_name": "GPT-5 nano",
+  "description": "Fastest, most cost-effective version of GPT-5 which is great for summarization and classification tasks.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "6895898dbff6d7657b915430"
+  },
+  "name": "gpt-5-mini",
+  "deployment_name": "gpt-5-mini",
+  "display_name": "GPT-5 mini",
+  "description": "A faster, more cost-efficient version of GPT-5 for well-defined tasks and precise prompts.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68959284bff6d7657b91543b"
+  },
+  "name": "gpt-4o-2",
+  "deployment_name": "gpt-4o-2",
+  "display_name": "GPT-4o",
+  "description": "A powerful language model optimized for various tasks.",
+  "unsupported_features": [
+    "reasoning"
+  ],
+  "region": "use",
+  "api_version": "2025-04-01-preview",
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "689a0b7a4a2742e4b64470b0"
+  },
+  "name": "gpt-4",
+  "deployment_name": "gpt-4",
+  "display_name": "GPT-4",
+  "description": "A powerful language model optimized for various tasks.",
+  "unsupported_features": [
+    "reasoning"
+  ],
+  "region": "use",
+  "api_version": "2025-04-01-preview",
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "67a67c44a47132a8162c65a6"
+  },
+  "name": "o3-mini",
+  "deployment_name": "o3-mini",
+  "display_name": "o3-mini",
+  "description": "A language model with Enhanced Reasoning and Problem Solving capabilities.",
+  "unsupported_features": [
+    "temperature"
+  ],
+  "region": "use2",
+  "api_version": "2025-04-01-preview",
+  "discoverable": false
+}]

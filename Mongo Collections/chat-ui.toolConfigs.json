@@ -1,0 +1,1633 @@
+[{
+  "_id": {
+    "$oid": "67059c85b69233162d397f61"
+  },
+  "name": "problem_reports_attachments_retriever",
+  "display_name": "Problem Reports Attachments",
+  "description": "search over problem reports attachments design insights",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9551"
+  },
+  "name": "techmemo_retriever",
+  "display_name": "Tech Articles",
+  "description": "Technical information such as issues and solutions communicated to field and customers. Types of tech articles include tech memos, safety alerts, and part change notifications among others",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Technical information such as issues and solutions communicated to field and customers. Types of tech articles include tech memos, safety alerts, and part change notifications among others"
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9552"
+  },
+  "name": "iplm_retriever",
+  "display_name": "IPLM 202 Docs",
+  "description": "Best known methods and procedures to install, maintain and troubleshoot Lam tools",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Best known methods and procedures to install, maintain and troubleshoot Lam tools"
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9553"
+  },
+  "name": "escalationsolver_retriever",
+  "display_name": "Escalation Solver",
+  "description": "search over escalation solver data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9554"
+  },
+  "name": "problem_reports_retriever",
+  "display_name": "Problem Reports",
+  "description": "search over problem reports data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9556"
+  },
+  "name": "cos_retriever",
+  "display_name": "CoS",
+  "description": " A global network of collaborative discussion boards that help Lam employees access/share/manage product information, interact with colleagues, and find technical information quickly",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "A global network of collaborative discussion boards that help Lam employees access/share/manage product information, interact with colleagues, and find technical information quickly"
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9557"
+  },
+  "name": "escalationsolver_cci_retriever",
+  "display_name": "Escalation Solver CCI",
+  "description": "search over escalation solver cci data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9558"
+  },
+  "name": "escalationsolver_ccidocs_retriever",
+  "display_name": "Escalation Solver Docs",
+  "description": "Documents tied to escalation tickets documenting issues, problems and potential solutions",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": "Documents tied to escalation tickets documenting issues, problems and potential solutions"
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce9559"
+  },
+  "name": "wbt_cci_retriever",
+  "display_name": "WBT CCI",
+  "description": "search over web based training course content",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "670f289bcc9b020a59ce955a"
+  },
+  "name": "wbt_course_description_retriever",
+  "display_name": "WBT",
+  "description": "search over web based training course descriptions",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "6716db26b0ce92ff43679ae2"
+  },
+  "name": "designreview_retriever",
+  "display_name": "Design Review Data",
+  "description": "search over design review structured design insights data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67205ba79c8cec206f462ffb"
+  },
+  "name": "wbt_multiretriever",
+  "display_name": "WBT",
+  "description": "testing multiretriever tool",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "6737defa984ec85b72c65922"
+  },
+  "name": "text_to_sql_tool",
+  "display_name": "Text To SQL",
+  "description": "search over multiple indexes to convert user question to a SQL Query",
+  "tool_type": "non_retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ]
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e1b"
+  },
+  "name": "designreviewattachments_retriever",
+  "display_name": "Design Review Attachments",
+  "description": "search over design review attachments",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-dr-reader"
+  ],
+  "security_group_ids": [
+    "b4517c7c-e6c3-440d-a5da-e64befa8224d"
+  ],
+  "user_has_access": true,
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e1c"
+  },
+  "name": "partsattachments_retriever",
+  "display_name": "Parts Attachments",
+  "description": "search over parts attachments",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e1d"
+  },
+  "name": "partsview_retriever",
+  "display_name": "Parts Data",
+  "description": "search over parts data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e1e"
+  },
+  "name": "changeorderview_retriever",
+  "display_name": "Change Order Data",
+  "description": "search over change order data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e1f"
+  },
+  "name": "changeorderattachments_retriever",
+  "display_name": "Change Order Attachments",
+  "description": "search over change order attachments",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "673cf5521a3e555914ea0e20"
+  },
+  "name": "nce_text2sql_tool",
+  "display_name": "NCe Analyzer",
+  "description": "Run the pipeline end to end to obtain the results",
+  "tool_type": "non-retriever",
+  "security_groups": [
+    "silk_dash_ncechatbot"
+  ],
+  "security_group_ids": [
+    "ded89b60-84bd-4537-a834-25efa0ba08eb"
+  ]
+},
+{
+  "_id": {
+    "$oid": "677ecd2a2015ef3638425318"
+  },
+  "name": "ehs_retriever",
+  "display_name": "EHS",
+  "description": "search over EHS data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "Permission group-EHS Lambot Users"
+  ],
+  "security_group_ids": [
+    "16dd57bd-b13b-446d-ab3c-9a79d2dbe587"
+  ],
+  "user_has_access": true,
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "67911ca9df6e9cf1262a67d1"
+  },
+  "name": "problemreportsdesigninsights_retriever",
+  "display_name": "Problem Reports Data",
+  "description": "Record of changes requested to Lam products or documentation under engineering change control. These also contain reports of problems by Lam employees, or suppliers that document issues about parts requiring Lam authorization",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Record of changes requested to Lam products or documentation under engineering change control. These also contain reports of problems by Lam employees, or suppliers that document issues about parts requiring Lam authorization"
+},
+{
+  "_id": {
+    "$oid": "67911d4b8375d9fc28d13791"
+  },
+  "name": "escalationsolver_multiretriever",
+  "display_name": "Escalation Solver Tickets",
+  "description": "Records to manage equipment related events, including historical solutions to current symptoms faced on tools/equipment",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Records to manage equipment related events, including historical solutions to current symptoms faced on tools/equipment"
+},
+{
+  "_id": {
+    "$oid": "67911da884edf24f4c5a446e"
+  },
+  "name": "edmsengstandards_retriever",
+  "display_name": "eDMS - Eng. Standards",
+  "description": "search over edms engineering standards data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67911de1c0398722abe43efb"
+  },
+  "name": "nce_retriever",
+  "display_name": "NCe",
+  "description": "Details quality escapes found at a customer's site, during install, warranty or post warranty support",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Details quality escapes found at a customer's site, during install, warranty or post warranty support"
+},
+{
+  "_id": {
+    "$oid": "679bf4665a95c507fb4ca2f2"
+  },
+  "name": "dielectricetch_retriever",
+  "display_name": "Dielectric Etch",
+  "description": "search over Dielectric Etch data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67b650cfa855d8a97f414b62"
+  },
+  "name": "customersurvey_retriever",
+  "display_name": "Customer Survey",
+  "description": "search over customer survey data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_customersurvey"
+  ],
+  "security_group_ids": [
+    "bda9eae5-53cd-4128-8ad7-2e0a74500695"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67b6d7d3178afbb380b0351e"
+  },
+  "name": "mfgopsvfd_retriever",
+  "display_name": "MFGOps VFD",
+  "description": "Communication logs related to Variable Frequency Drives (VFD) used in a variety of Lam systems for diagnosis and troubleshooting communication issues",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-mfg-ops"
+  ],
+  "security_group_ids": [
+    "d52ef4c0-3706-4774-8492-b6be75e9d615"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "67b6d7d3178afbb380b0351f"
+  },
+  "name": "mfgopsteescalation_retriever",
+  "display_name": "MFGOps TE Escalation",
+  "description": "Records technical escalations from test engineers on on Lam tools during the manufacturing process",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-mfg-ops"
+  ],
+  "security_group_ids": [
+    "d52ef4c0-3706-4774-8492-b6be75e9d615"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "67c73ad398b7468ab6be4ace"
+  },
+  "name": "ets_text2sql_tool",
+  "display_name": "ETS",
+  "description": "search over ets data",
+  "tool_type": "non-retriever",
+  "security_groups": [
+    "Permission group-EHS Incident Lambot Users"
+  ],
+  "security_group_ids": [
+    "f1fe9644-302a-472c-8947-3b870c97281e"
+  ],
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67c77a6e6e5b7d7a800bb63b"
+  },
+  "name": "materialdrawing_retriever",
+  "display_name": "Parts Drawings",
+  "description": "search over Material Drawing table indexed from Synapse",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67c77a6e6e5b7d7a800bb63c"
+  },
+  "name": "designworkspace_retriever",
+  "display_name": "Design Workspaces Data",
+  "description": "search over Design Workspaces table indexed from Synapse",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "user_has_access": true,
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "67c8914496c7886258486a4d"
+  },
+  "name": "customerspec_retriever",
+  "display_name": "Common Spec",
+  "description": "Standardized requirements or specifications applied across tools, systems, or components to ensure consistency, safety and compatibility",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_commonspec"
+  ],
+  "security_group_ids": [
+    "d8f3d371-e6d9-481a-b554-900f21949f2a"
+  ],
+  "user_has_access": true,
+  "discoverable": false,
+  "tooltip": "Search over customer spec data"
+},
+{
+  "_id": {
+    "$oid": "67d8c8b5ca6281c4ffc0214d"
+  },
+  "name": "swc_retriever",
+  "display_name": "SWC",
+  "description": "search over swcc data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67d8ccc2114c10bea2cde0c2"
+  },
+  "name": "edmsfinance_retriever",
+  "display_name": "eDMS Finance",
+  "description": "A collection of Lam finance standards, policies, procedures, work instructions, and more",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-edmsfinance"
+  ],
+  "security_group_ids": [
+    "c885c074-5405-43cf-aba1-53628d2986d7"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "67db5434898624968249c4ce"
+  },
+  "name": "softwarereleasenotes_retriever",
+  "display_name": "Software Release Notes",
+  "description": "Information about releases, feature lists, and delta reports pertaining to software used on Lam tools. This includes 2300 software, as well as C2C3 releases",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "discoverable": false,
+  "tooltip": "Information about releases, feature lists, and delta reports pertaining to software used on Lam tools. This includes 2300 software, as well as C2C3 releases"
+},
+{
+  "_id": {
+    "$oid": "67e5baf9de096be4c2334593"
+  },
+  "name": "softwarewiki_retriever",
+  "display_name": "Software Wiki",
+  "description": "Collection of knowledge articles by SMEs to resolve tool related software issues or point to specific procedures to perform software procedures. These are specific to 2300 software",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": "Collection of knowledge articles by SMEs to resolve tool related software issues or point to specific procedures to perform software procedures. These are specific to 2300 software"
+},
+{
+  "_id": {
+    "$oid": "67e5bdcc7696cefb6e6b907e"
+  },
+  "name": "fsehandbooks_retriever",
+  "display_name": "FSE Handbooks",
+  "description": "Training resources for FSEs to navigate common problems encountered while using WAFER application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": true,
+  "user_has_access": true,
+  "tooltip": "Training resources for FSEs to navigate common problems encountered while using WAFER application"
+},
+{
+  "_id": {
+    "$oid": "67ead52639449e165e42d74e"
+  },
+  "name": "softwaretestcases_retriever",
+  "display_name": "Software Test Cases",
+  "description": "Outlines specific test cases, plans, and procedures to be performed while testing software features",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "discoverable": false,
+  "tooltip": "Outlines specific test cases, plans, and procedures to be performed while testing software features"
+},
+{
+  "_id": {
+    "$oid": "67f5ab9d864b47e297eb9c98"
+  },
+  "name": "servicedeskkb_retriever",
+  "display_name": "Service Now",
+  "description": "search over Service Now data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "67f9620b23f8dc7d96688bca"
+  },
+  "name": "mfgopspythoncode_retriever",
+  "display_name": "Python Code Test Cases",
+  "description": "Custom python test scripts used by test engineers and manufacturing engineers while running Gemini tools",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-mfg-ops"
+  ],
+  "security_group_ids": [
+    "d52ef4c0-3706-4774-8492-b6be75e9d615"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "67ffcd01d399c4ad17bcd3eb"
+  },
+  "name": "hrt_text_to_sql_tool",
+  "display_name": "HRT Text To SQL",
+  "description": "search over multiple indexes to convert user question to a SQL Query",
+  "tool_type": "non_retriever",
+  "security_groups": [
+    "lambots-tools-hrt"
+  ],
+  "security_group_ids": [
+    "417c0aa6-db20-4d04-bd32-213921a217dd"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68003239435c4191b04acb56"
+  },
+  "name": "lamindiafinance_retriever",
+  "display_name": "Finance Data",
+  "description": "search over lam india finance data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "6805a6cc9493d87af75663c6"
+  },
+  "name": "corporateaccounting_retriever",
+  "display_name": "Sharepoint Documents",
+  "description": "Repository of technical accounting standards and guidelines to help finance users get proposals on accounting treatment for given situations",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-edmsfinance"
+  ],
+  "security_group_ids": [
+    "c885c074-5405-43cf-aba1-53628d2986d7"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "6805a6e79493d87af75663c8"
+  },
+  "name": "payrollkb_retriever",
+  "display_name": "Payroll Sharepoint",
+  "description": "search over payroll data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "681a9e485c2490900edce5ac"
+  },
+  "name": "modelingreports_retriever",
+  "display_name": "Modeling Reports",
+  "description": "search over Modeling Reports data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "newfreebie_Read"
+  ],
+  "security_group_ids": [
+    "0b7f5ec4-d2c4-4911-9f31-4ac4261ad1c7"
+  ],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "6822d393f00d85e546943361"
+  },
+  "name": "mfgops_lmm_es_malaysia",
+  "display_name": "MFG Ops Malaysia",
+  "description": "Log of Lam Malaysia Manufacturing Engineer Escalations, Issues, and Resolutions ",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-mfg-ops"
+  ],
+  "security_group_ids": [
+    "d52ef4c0-3706-4774-8492-b6be75e9d615"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "6822d410f00d85e546943365"
+  },
+  "name": "mfgops_nci",
+  "display_name": "MFG Ops NCI",
+  "description": "Contains data for quality non conformances generated internally within Lam manufacturing sites or warehouses",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-mfg-ops"
+  ],
+  "security_group_ids": [
+    "d52ef4c0-3706-4774-8492-b6be75e9d615"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68262c3fb8046df3c1270eff"
+  },
+  "name": "edmslegalethics_retriever",
+  "display_name": "eDMS Legal",
+  "description": "A collection of Lam legal standards, policies, procedures, work instructions, and more",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68276aa54ad260ec5c60c3bc"
+  },
+  "name": "reliabilityreports_retriever",
+  "display_name": "Reliability Reports",
+  "description": "search over Reliability Reports data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "newfreebie_Read"
+  ],
+  "security_group_ids": [
+    "0b7f5ec4-d2c4-4911-9f31-4ac4261ad1c7"
+  ],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "682fd1f8694a1858336457c8"
+  },
+  "name": "etch_retriever",
+  "display_name": "Etch",
+  "description": "search over Etch data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-etch"
+  ],
+  "security_group_ids": [
+    "a90115ea-f1e7-4faa-ac50-28004a4771b4"
+  ],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "68374931e27df126d46b821a"
+  },
+  "name": "demodata_retriever",
+  "display_name": "CSBG Restricted Data",
+  "description": "Contains documents used by CSBG Engineers for testing and evaluating systems and processes. It is utilized to simulate real-world scenarios, validate system functionalities, and ensure that processes are working as intended before they are deployed in a live environment.",
+  "tool_type": "retriever",
+  "security_groups": [
+    "CSBG Etch Demo Quest+ Team"
+  ],
+  "security_group_ids": [
+    "f17b43c8-71ef-4a50-a2ca-7a4b76f2fb84"
+  ],
+  "user_has_access": true,
+  "discoverable": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68374931e27df126d46b821b"
+  },
+  "name": "iplmfaq_retriever",
+  "display_name": "iPLM Training & Support",
+  "description": "search over iplm faq data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "683a022faa726b822600581d"
+  },
+  "name": "competitiveanalysisevents_retriever",
+  "display_name": "Competitive Analysis Events",
+  "description": "search over competitive analysis events data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-cfpa"
+  ],
+  "security_group_ids": [
+    "be114992-a86e-461e-8e34-e55a256036d2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "683a023daa726b822600581f"
+  },
+  "name": "competitiveanalysisdatabase_retriever",
+  "display_name": "Competitive Analysis Database",
+  "description": "search over competitive analysis database data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-cfpa"
+  ],
+  "security_group_ids": [
+    "be114992-a86e-461e-8e34-e55a256036d2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "683a0246aa726b8226005821"
+  },
+  "name": "iranalystreports_retriever",
+  "display_name": "IR Analyst Reports",
+  "description": "search over ir analyst reports data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-secret-group"
+  ],
+  "security_group_ids": [
+    "fa8d8e9f-14b6-4562-90b4-be1277c2c608"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "6853ac60be753a6a8eebebef"
+  },
+  "name": "dpgtranscripts_retriever",
+  "display_name": "DPG Engineering",
+  "description": "Repository of Lam's deposition knowledge base and engineer training documents",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-dpg-plasma-lectures-reader"
+  ],
+  "security_group_ids": [
+    "4edaaefa-c120-4430-9466-860e06870996"
+  ],
+  "user_has_access": true,
+  "discoverable": false,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68544dfb04bf064049ae66e2"
+  },
+  "name": "edmshrt_retriever",
+  "display_name": "eDMS HR",
+  "description": "A collection of Lam human resources standards, policies, procedures, work instructions, and more",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "685c5edc67d19ca02ef2309e"
+  },
+  "name": "confluence_retriever",
+  "display_name": "Confluence 2300 SW & EI",
+  "description": "Knowledge articles and guidance on specific procedures pertaining to 2300 software, quality assurance, CV, CO, and Equipment Intelligence",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": "Knowledge articles and guidance on specific procedures pertaining to 2300 software, quality assurance, CV, CO, and Equipment Intelligence"
+},
+{
+  "_id": {
+    "$oid": "685c9e2aa6ff0c27fd193881"
+  },
+  "name": "fmeachat_retriever",
+  "display_name": "FMEA Chat",
+  "description": "FMEA datasource for chat purpose",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "685c9e2aa6ff0c27fd193882"
+  },
+  "name": "fmea_creation_agent_tool",
+  "display_name": "Draft FMEA",
+  "description": "FMEA Template generator",
+  "tool_type": "non_retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68655b71e02846948f141ff5"
+  },
+  "name": "vizglowusermanual_retriever",
+  "display_name": "Viz Glow User Manual",
+  "description": "search over Viz Glow User Manual data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "6866fe16322194970f116324"
+  },
+  "name": "bfs_retriever",
+  "display_name": "BFS",
+  "description": "Breadth First Search contains data extracted from failure analysis documents to provide key information such as problem statements, symptoms, results, inferred failure modes, and actions taken",
+  "tool_type": "retriever",
+  "security_groups": [
+    "permissions group-FASTBOT Users"
+  ],
+  "security_group_ids": [
+    "c09c3263-53e7-4f31-be74-7e0e58d50241"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "6867a36299eaaee43066073c"
+  },
+  "name": "mfgops_iplm_510doc_retriever",
+  "display_name": "iPLM 510 Docs",
+  "description": "Documents containing functional Test Procedures for Lam assemblies",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "6870104cad25b1df9c94411e"
+  },
+  "name": "semis2_retriever",
+  "display_name": "SEMI S2",
+  "description": "Documents outlining safety performance requirements for manufacturing semiconductor equipment",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-semis2"
+  ],
+  "security_group_ids": [
+    "690b9da7-ca8a-4adb-967c-5f172e96e4ef"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "687885d96a61d2489d525053"
+  },
+  "name": "cedocuments_retriever",
+  "display_name": "CE Documents",
+  "description": "search over engineering standards",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "687947726a61d2489d525067"
+  },
+  "name": "etch_redacted_retriever",
+  "display_name": "Etch (General Insights)",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group used to generate general insights",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-etch"
+  ],
+  "security_group_ids": [
+    "a90115ea-f1e7-4faa-ac50-28004a4771b4"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "687a4b3d9b5fa7ff1e3cb9ea"
+  },
+  "name": "p2f_retriever",
+  "display_name": "P2F",
+  "description": "search over P2F data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "688045f3637a267f22ddfb03"
+  },
+  "name": "metrology_retriever",
+  "display_name": "Metrology Data",
+  "description": "search over metrology data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "688ba7dffecf342868af816e"
+  },
+  "name": "bing_custom_search",
+  "display_name": "Web Search [Finance]",
+  "description": "search the web using Bing search engine for specific domains",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": []
+},
+{
+  "_id": {
+    "$oid": "688ba7e7fecf342868af8170"
+  },
+  "name": "bing_grounding",
+  "display_name": "Web Search",
+  "description": "search the web using Bing search engine",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "688bfb4dfecf342868af8183"
+  },
+  "name": "code_interpreter",
+  "display_name": "Code Interpreter",
+  "description": "This tool is used to run python code using Assistants API",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "689d70e2792f16f1abc109bd"
+  },
+  "name": "cfpa_retriever",
+  "display_name": "CFPA",
+  "description": "search over CFPA data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-cfpa"
+  ],
+  "security_group_ids": [
+    "be114992-a86e-461e-8e34-e55a256036d2"
+  ],
+  "discoverable": false,
+  "user_has_access": true
+},
+{
+  "_id": {
+    "$oid": "689f71520a49558aebe9bde1"
+  },
+  "name": "user_scoped_sharepoint_tool",
+  "display_name": "SharePoint Search",
+  "description": "search over user-scoped SharePoint data",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": []
+},
+{
+  "_id": {
+    "$oid": "68a4cc188f6746cf856241e1"
+  },
+  "name": "custom_sharepoint_tool",
+  "display_name": "Custom SharePoint Search",
+  "description": "search over custom SharePoint data",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": true
+},
+{
+  "_id": {
+    "$oid": "68ad62434d24ccb7a0f27ef1"
+  },
+  "name": "DBV_sessions_retriever",
+  "display_name": "DBV Sessions",
+  "description": "Design-Build-Validate session recordings pertaining to Lam's Digital Transformation efforts",
+  "tool_type": "retriever",
+  "discoverable": true,
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68b84ce68f53e774d0a9c4b1"
+  },
+  "name": "sabre3d_epl_retriever",
+  "display_name": "DPGW - SABRE EPL - General",
+  "description": "Documents associated with SABRE systems, recognized for their industry-leading fill and defect density performance, supporting memory and logic device production.",
+  "tool_type": "retriever",
+  "security_groups": [
+    "SABRE 3D EPL Team"
+  ],
+  "security_group_ids": [
+    "5472b78d-a25e-4a48-b7e7-754db4a7cc7c"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68b84d228f53e774d0a9c4b5"
+  },
+  "name": "sabre3d_bdsite_retriever",
+  "display_name": "DPGW - SABRE 3D BD",
+  "description": "Documents associated with SABRE systems are recognized for their industry-leading fill and defect density performance, supporting memory and logic device production.",
+  "tool_type": "retriever",
+  "security_groups": [
+    "SABRE 3D BD Site"
+  ],
+  "security_group_ids": [
+    "97a55028-ba94-4d21-9473-1c188319d087"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68b84da98f53e774d0a9c4b7"
+  },
+  "name": "sabre3d_kpr_retriever",
+  "display_name": "DPGW - SABRE EPL - 3D KPR ",
+  "description": "Documents associated with SABRE systems are recognized for their industry-leading fill and defect density performance, supporting memory and logic device production.",
+  "tool_type": "retriever",
+  "security_groups": [
+    "SABRE 3D EPL Team"
+  ],
+  "security_group_ids": [
+    "5472b78d-a25e-4a48-b7e7-754db4a7cc7c"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68ba1090f439af84f8082ab0"
+  },
+  "name": "bing_grounding_custom_search_payroll",
+  "display_name": "LamBenefits.com Search",
+  "description": "search over Lambenefits website to provide useful information",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "68bbbd7a510f0edc1b907154"
+  },
+  "name": "etch_app_acl_multiretriever",
+  "display_name": "ACL",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the ACL application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe0f510f0edc1b907156"
+  },
+  "name": "etch_app_bg_multiretriever",
+  "display_name": "Buried Gate",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the BG application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe3a510f0edc1b907158"
+  },
+  "name": "etch_app_celletch_multiretriever",
+  "display_name": "Cell Etch",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the Cell Etch application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe51510f0edc1b90715a"
+  },
+  "name": "etch_app_ch_multiretriever",
+  "display_name": "CH Etch",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the CH Etch application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe73510f0edc1b90715c"
+  },
+  "name": "etch_app_f0_multiretriever",
+  "display_name": "F0 Etch",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the F0 Etch application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe87510f0edc1b90715e"
+  },
+  "name": "etch_app_sncpoly_multiretriever",
+  "display_name": "SNC Poly",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the SNC Poly application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bbbe9d510f0edc1b907160"
+  },
+  "name": "etch_app_training_multiretriever",
+  "display_name": "Training",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the Training application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68bd1811c25ab60baa935e0a"
+  },
+  "name": "bing_grounding_custom_search_finance",
+  "display_name": "Web Search [Finance]",
+  "description": "search the web using Bing search engine for specific domains",
+  "tool_type": "non-retriever",
+  "security_groups": [],
+  "security_group_ids": []
+},
+{
+  "_id": {
+    "$oid": "68c032c35ab855ad69a7981f"
+  },
+  "name": "ethicscompliance_retriever",
+  "display_name": "Ethics and Compliance",
+  "description": "search over sharepoint ethics and compliance data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "68d27d59b53b13b4248a9c15"
+  },
+  "name": "fmea_retriever",
+  "display_name": "Historical FMEA",
+  "description": "search over FMEA data",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "68d3097eff996b4f956b22ba"
+  },
+  "name": "edmscustomersurvey_retriever",
+  "display_name": "EDMS data (customer survey)",
+  "description": "Select EDMS documents for customer survey use-case",
+  "tool_type": "retriever",
+  "discoverable": false,
+  "security_groups": [
+    "silk_dash_openai_customersurvey"
+  ],
+  "security_group_ids": [
+    "bda9eae5-53cd-4128-8ad7-2e0a74500695"
+  ],
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68d3fecc879db89ca5bffcff"
+  },
+  "name": "fmea_conversational_agent_tool",
+  "display_name": "FMEA AI Assistant",
+  "description": "FMEA generator",
+  "tool_type": "non_retriever",
+  "security_groups": [
+    "silk_openai_designinsight"
+  ],
+  "security_group_ids": [
+    "f75af58a-3992-46e5-a3dd-7a32ebd42da2"
+  ],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "68db09b40b714fff9ca6a28c"
+  },
+  "name": "etch_app_vgbg_multiretriever",
+  "display_name": "VG BG",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the VG BG application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68db09e00b714fff9ca6a28d"
+  },
+  "name": "etch_app_vgmg_multiretriever",
+  "display_name": "VG MG",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the VG MG application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68db0a0c0b714fff9ca6a28e"
+  },
+  "name": "etch_app_channel_multiretriever",
+  "display_name": "Channel",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the Channel application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68db0a410b714fff9ca6a28f"
+  },
+  "name": "etch_app_sdrecess_multiretriever",
+  "display_name": "SD Recess",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the SD Recess application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68db0a580b714fff9ca6a290"
+  },
+  "name": "etch_app_pdr_multiretriever",
+  "display_name": "PDR",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group for the PDR application",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68e6b460265491a4ad8fc7f2"
+  },
+  "name": "fishbone_diagram_tool",
+  "display_name": "Fishbone Diagram Tool",
+  "description": "This tool is used to show a fishbone diagram based on user query",
+  "tool_type": "non-retriever",
+  "discoverable": false,
+  "security_groups": [],
+  "security_group_ids": [],
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68f85b432f898e5d30cc06d9"
+  },
+  "name": "etch_metadata_multiretriever",
+  "display_name": "Etch",
+  "description": "Contains data related to results of experiments conducted by the Etch process engineering group",
+  "tool_type": "retriever",
+  "security_groups": [
+    "lambots-retriever-dielectricetch"
+  ],
+  "security_group_ids": [
+    "e8a18e6c-d36c-4fdf-b08b-4e9e6b3da950"
+  ],
+  "discoverable": false,
+  "user_has_access": true,
+  "tooltip": null
+},
+{
+  "_id": {
+    "$oid": "68ff794c6fd90b93533f0a12"
+  },
+  "name": "journeyhub_retriever",
+  "display_name": "Engineering - JourneyHub",
+  "description": "search over web based training course descriptions",
+  "tool_type": "retriever",
+  "security_groups": [],
+  "security_group_ids": [],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "68ff797a6fd90b93533f0a14"
+  },
+  "name": "nsrstructured_retriever",
+  "display_name": "Non-Standard Requests Data",
+  "description": "search over non-standard requests data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "silk_dash_openai_insightmgmt"
+  ],
+  "security_group_ids": [
+    "0c3de5db-327e-4ed4-9d95-6b5d3a155e69"
+  ],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "6902ab12ef8177d1bfc69e0e"
+  },
+  "name": "problemreportsdatafabricview_retriever",
+  "display_name": "Problem Reports Data Fabric",
+  "description": "search over problem reports data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false
+},
+{
+  "_id": {
+    "$oid": "69038e67a3d45c1c431dd869"
+  },
+  "name": "changerequests_retriever",
+  "display_name": "Change Requests Data Fabric",
+  "description": "search over change requests data",
+  "tool_type": "retriever",
+  "security_groups": [
+    "df-c-iplm-all-reader"
+  ],
+  "security_group_ids": [
+    "b565a191-ef07-4dbc-8aea-412615a86585"
+  ],
+  "discoverable": false
+}]

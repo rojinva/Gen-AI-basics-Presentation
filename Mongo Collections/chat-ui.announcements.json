@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "68dd55529b4ad80a9d52641f"
+  },
+  "id": "announcement-id-001",
+  "title": "Test",
+  "message": "There will be a planned maintenance",
+  "isActive": false,
+  "startDate": {
+    "$date": "2025-10-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-10-12T23:59:59.000Z"
+  }
+}]
